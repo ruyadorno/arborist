@@ -11,8 +11,6 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
 
 
 "a@":
-  "integrity" "sha1-3Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "https://registry.internal/a/-/a-1.2.3.tgz"
   "version" "1.2.3"
   dependencies:
     "b" ""
@@ -23,8 +21,6 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
   "version" "1.1.1"
 
 "b@":
-  "integrity" "sha1-4Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "https://registry.internal/b/-/b-1.2.3.tgz"
   "version" "1.2.3"
   dependencies:
     "c" ""
@@ -43,15 +39,11 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
     "concat-map" "0.0.1"
 
 "bundler@1.2.3":
-  "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "https://registry.internal/bundler/-/bundler-1.2.3.tgz"
   "version" "1.2.3"
   dependencies:
     "a" ""
 
 "c@":
-  "integrity" "sha1-5Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "https://registry.internal/c/-/c-1.2.3.tgz"
   "version" "1.2.3"
 
 "concat-map@0.0.1":
@@ -73,8 +65,6 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
   "version" "1.1.1"
 
 "glob@^7.1.3":
-  "integrity" "sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A=="
-  "resolved" "https://registry.npmjs.org/glob/-/glob-7.1.4.tgz"
   "version" "7.1.4"
   dependencies:
     "fs.realpath" "^1.0.0"
@@ -105,13 +95,11 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
     "brace-expansion" "^1.1.7"
 
 "old@npm:abbrev@^1.0.3":
-  "integrity" "sha1-qgScln+ZkiKqQuFENPDFYu9GgkE="
   "resolved" "https://registry.npmjs.org/abbrev/-/abbrev-1.0.3.tgz"
   "version" "1.0.3"
 
 "once@^1.3.0":
   "integrity" "sha512-oic2VxBO6ZRyhk4W/amcN3D4tGpSELjpXwShWPBHNVDvVXo2+JcNnNx6Dth+Y961vfz7SmCCc6RP2oNQE2yVwQ=="
-  "resolved" "file:once-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "wrappy" "1"
@@ -142,7 +130,6 @@ exports[`test/yarn-lock.js TAP load a yarn lock from a tree install-types > yarn
 
 "tarball@file:abbrev-1.1.1.tgz":
   "integrity" "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q=="
-  "resolved" "file:abbrev-1.1.1.tgz"
   "version" "1.1.1"
 
 "wrappy@1":
