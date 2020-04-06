@@ -1,0 +1,18 @@
+{
+  "name": "@ruyadorno/testing-top-level-workspaces-with-dev-deps",
+  "version": "1.0.0",
+  "description": "A top-level workspace with a declared devDependency",
+  "main": "index.js",
+  "dependencies": {
+    "a": "file:a"
+  },
+  "devDependencies": {
+    "abbrev": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ruy Adorno",
+  "license": "ISC"
+}

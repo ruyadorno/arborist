@@ -251,6 +251,11 @@ t.test('unresolveable peer deps', t => {
   }, 'unacceptable')
 })
 
+t.test('peer deps conflicts', t => {
+  const path = resolve(__dirname, '../fixtures/testing-peer-deps-conflicts')
+  return t.ok(printIdeal(path))
+})
+
 t.test('do not add shrinkwrapped deps', t => {
   const path = resolve(__dirname, '../fixtures/shrinkwrapped-dep-no-lock')
   return t.resolveMatchSnapshot(printIdeal(path))
